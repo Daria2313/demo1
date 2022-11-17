@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.JiminController">
+   <children>
+      <ImageView fitHeight="408.0" fitWidth="522.0" layoutX="39.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Закачки/давление.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="login" layoutX="95.0" layoutY="200.0" promptText="Логин" />
+      <TextField fx:id="pass" layoutX="349.0" layoutY="200.0" promptText="Пароль" />
+      <Button fx:id="OK" layoutX="275.0" layoutY="291.0" mnemonicParsing="false" text="Войти" />
+      <Text layoutX="178.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добро Пожаловать!" textAlignment="CENTER" wrappingWidth="243.06317138671875">
+         <font>
+            <Font name="Cambria Bold" size="35.0" />
+         </font></Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <TextField fx:id="name" layoutX="95.0" layoutY="151.0" promptText="Имя" />
+      <TextField fx:id="surname" layoutX="349.0" layoutY="151.0" promptText="Фамилия" />
+      <TextField fx:id="Country" layoutX="225.0" layoutY="249.0" promptText="Страна" />
+   </children>
+</AnchorPane>
